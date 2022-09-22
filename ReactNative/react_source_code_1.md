@@ -364,5 +364,7 @@ function createFunctionComponent(vnode) {
       1. [zsh: not found create-react-app # · Issue #10320 · facebook/create-react-app](https://github.com/facebook/create-react-app/issues/10320)
    
    3. 文件目录如下：
+   
    ![](./img/react_source_code_1.png)
+
    4. 使用react16验证。
