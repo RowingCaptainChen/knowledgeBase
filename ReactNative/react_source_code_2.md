@@ -183,7 +183,7 @@ export default class Component{
     cache.context = nextContext || {}
     //强制更新
     component.forceUpdate(callback)
-}
+    }
   ```
 
   7. 当执行updateQueue.add(this)时，将Updater()实例放入updater队列中处理，在render时候会调用batchUpdate()批处理，并执行5，6步骤。
