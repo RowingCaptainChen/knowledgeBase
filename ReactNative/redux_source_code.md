@@ -1,4 +1,4 @@
-# Redux底层实现总结
+# Redux底层实现
 ## 预备知识
 1.高阶组件（high-order component)
 
