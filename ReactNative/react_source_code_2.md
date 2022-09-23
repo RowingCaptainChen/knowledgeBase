@@ -163,9 +163,8 @@ export default class Component{
             this.pendingCallbacks.push(callback)
         }
     }
-}
-
-function shouldUpdate(component, nextProps, nextState, nextContext, callback) {
+    }
+    function shouldUpdate(component, nextProps, nextState, nextContext, callback) {
     // 是否应该更新 判断shouldComponentUpdate生命周期
     let shouldComponentUpdate = true
     if (component.shouldComponentUpdate) {
@@ -187,8 +186,8 @@ function shouldUpdate(component, nextProps, nextState, nextContext, callback) {
 }
   ```
 
-  7. 当执行updateQueue.add(this)时，将Updater()实例放入updater队列中处理，在render时候会调用batchUpdate()批处理，并执行e，f步骤。
-  ```js
+  7. 当执行updateQueue.add(this)时，将Updater()实例放入updater队列中处理，在render时候会调用batchUpdate()批处理，并执行5，6步骤。
+```js
 export let updateQueue = {
     updaters: [],
     isPending: false,
@@ -196,7 +195,7 @@ export let updateQueue = {
         this.updaters.push(updater)
     },
     batchUpdate() {
-       //若为挂起状态则不处理
+        //若为挂起状态则不处理
         if (this.isPending) {
             return
         }
