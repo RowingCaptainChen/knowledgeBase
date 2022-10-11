@@ -6,6 +6,12 @@
 - [Redux底层实现](ReactNative/redux_source_code.md)
 - [Redux中间件](ReactNative/redux_middleware_source_code.md)
 
+
+## 语言
+**JavaScript:**
+- [JS函数总结](Language/javascript_function.md)
+**Dart:**
+
 ## 大数据
 
 - [Flink流处理基础](BigData/flink-stream-processing-theory.md)
