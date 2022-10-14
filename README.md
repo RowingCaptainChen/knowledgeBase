@@ -9,7 +9,10 @@
 
 ## 语言
 **JavaScript:**
-- [JS函数总结](Language/javascript_function.md)
+- [JS-函数调用、作用域、词法环境](Language/javascript_function_01.md)
+- [JS-闭包原理](Language/javascript_function_02.md)
+- [JS-Generator和Promise函数](Language/javascript_function_03.md)
+
 **Dart:**
 
 ## 大数据
