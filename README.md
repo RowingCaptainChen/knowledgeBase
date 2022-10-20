@@ -9,6 +9,7 @@
 
 ## Flutter
 - [Flutter key总结](Flutter/flutter_key.md)
+- [Flutter 手势事件分发](Flutter/flutter_gesture_dispatch.md)
 
 
 ## 语言
