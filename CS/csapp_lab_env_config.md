@@ -25,3 +25,6 @@ sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
 sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
 yum update -y
 ```
+
+- make简介: https://www.ruanyifeng.com/blog/2015/02/make.html
+- Arm上的-m32问题: https://bbs.huaweicloud.com/blogs/126968
